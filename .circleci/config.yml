@@ -1,0 +1,205 @@
+---
+version: 2.1
+commands:
+  parse_lint_log:
+    parameters:
+      file_path:
+        type: string
+        default: "pre_commit_lint_log.txt"
+      parser:
+        type: string
+        default: "pre_commit_lint"
+      api_version:
+        type: string
+        default: ""
+      ci_output_parser_release_asset:
+        type: string
+        default: "17538298"
+    steps:
+      - run:
+          name: Download parser
+          when: always
+          command: |
+            [ -f ci_output_parser-*-py3-none-any.whl ] || \
+            ( curl -LJO --header "Accept: application/octet-stream" \
+            "https://api.github.com/repos/lzbrooks/CIOutputParser/\
+            releases/assets/<< parameters.ci_output_parser_release_asset >>\
+            ?access_token=${GITHUB_TOKEN}" && \
+            sudo apt-get update && \
+            sudo apt-get install -y python3.7 python3-distutils && \
+            curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
+            python3.7 get-pip.py --user && \
+            python3.7 -m pip install --user \
+            ci_output_parser-*-py3-none-any.whl )
+      - run:
+          name: Parse lint log
+          when: always
+          command: |
+            [ -f << parameters.file_path >> ] && \
+            ci_output_parser << parameters.file_path >> \
+            << parameters.parser >> << parameters.api_version >>
+  send_lint_to_github:
+    parameters:
+      json_lint:
+        type: string
+        default: "pre_commit_lint.json"
+    steps:
+      - run:
+          name: Send lint log
+          when: always
+          command: |
+            [ -f << parameters.json_lint >> ] && \
+            curl --header "Authorization: token ${GITHUB_TOKEN}" \
+            --header "Content-Type: application/json" \
+            --data @<< parameters.json_lint >> \
+            "https://api.github.com/repos/\
+            ${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}/\
+            commits/${CIRCLE_SHA1}/comments" || \
+            echo "No lint errors to report"
+jobs:
+  lint:
+    docker:
+      - image: circleci/python:3.7
+    environment:
+      LANG: C.UTF8
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: |
+            pip install \
+            wheel \
+            pre-commit~=1.20.0 --user
+            sudo apt-get update && sudo apt-get install \
+            --no-install-recommends -y \
+            shellcheck
+            curl -fLSs https://circle.ci/cli | sudo bash
+            curl -sfL \
+            https://install.goreleaser.com/github.com/ValeLint/vale.sh | \
+            sh -s v1.7.1
+      - run:
+          name: Run pre-commit
+          command: |
+            pre-commit run --all-files | tee pre_commit_lint_log.txt
+      - parse_lint_log:
+          file_path: pre_commit_lint_log.txt
+          parser: pre_commit_lint
+      - send_lint_to_github:
+          json_lint: pre_commit_lint.json
+      - run:
+          name: Run vale lint
+          command: |
+            ./bin/vale . | tee vale_lint_log.txt
+      - parse_lint_log:
+          file_path: vale_lint_log.txt
+          parser: vale_lint
+      - send_lint_to_github:
+          json_lint: vale_lint.json
+  build:
+    docker:
+      - image: circleci/python:3.7
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: |
+            python -m pip install --user --upgrade setuptools wheel
+      - run:
+          name: Build parser
+          command: |
+            python setup.py sdist bdist_wheel
+            ls -la ./*
+      - persist_to_workspace:
+          root: dist
+          paths:
+            - ci_output_parser-*-py3-none-any.whl
+            - ci_output_parser-*.tar.gz
+  document:
+    docker:
+      - image: circleci/python:3.7
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: |
+            pip install --user -r requirements.txt
+      - run:
+          name: Generate docs
+          command: |
+            pdoc --html ci_output_parser
+      - run:
+          name: Package docs
+          command: |
+            mv CODE_OF_CONDUCT.md CONTRIBUTING.md README.md docs
+            mv html/ci_output_parser docs
+            zip -r docs.zip docs
+            mv docs.zip ./docs
+      - persist_to_workspace:
+          root: docs
+          paths:
+            - docs.zip
+      - store_artifacts:
+          path: docs/docs.zip
+  test:
+    docker:
+      - image: circleci/python:3.7
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: |
+            pip install --user -r requirements.txt
+      - run:
+          name: Test parser
+          command: |
+            mkdir -p test_results/pytest
+            pytest --junitxml=test_results/pytest/junit.xml
+            pytest --cov-report xml:coverage.xml --cov=ci_output_parser tests/
+            ls -la ./*
+      - run:
+          name: Send coverage reports to codecov
+          command: |
+            bash <(curl -s https://codecov.io/bash) || \
+            echo "Codecov did not collect coverage reports"
+      - store_test_results:
+          path: test_results
+  release:
+    docker:
+      - image: circleci/node:12
+    steps:
+      - checkout
+      - attach_workspace:
+          at: workspace
+      - run:
+          name: Install semantic release
+          command: |
+            npm install --save-dev semantic-release@15 \
+            @semantic-release/changelog@3 \
+            conventional-changelog-conventionalcommits@4 \
+            @commitlint/config-conventional@8
+      - run:
+          name: Run semantic release
+          command: |
+            mv ./workspace/docs.zip \
+            ./workspace/ci_output_parser-*-py3-none-any.whl \
+            ./workspace/ci_output_parser-*.tar.gz .
+            npx semantic-release
+      - store_artifacts:
+          path: CHANGELOG.md
+workflows:
+  version: 2
+  build and test:
+    jobs:
+      - lint
+      - build
+      - test
+      - document
+      - release:
+          filters:
+            branches:
+              only: master
+          requires:
+            - lint
+            - build
+            - test
+            - document
