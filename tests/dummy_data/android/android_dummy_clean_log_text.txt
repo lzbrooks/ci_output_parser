@@ -1,0 +1,118 @@
+Download https://maven.google.com/com/android/tools/lint/lint-gradle/26.2.0/lint-gradle-26.2.0.pom
+Download https://maven.google.com/com/android/tools/external/org-jetbrains/uast/26.2.0/uast-26.2.0.pom
+Download https://jcenter.bintray.com/org/codehaus/groovy/groovy-all/2.4.12/groovy-all-2.4.12.pom
+Download https://maven.google.com/com/android/tools/external/com-intellij/intellij-core/26.2.0/intellij-core-26.2.0.pom
+Download https://maven.google.com/com/android/tools/lint/lint/26.2.0/lint-26.2.0.pom
+Download https://jcenter.bintray.com/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.pom
+Download https://maven.google.com/com/android/tools/lint/lint-checks/26.2.0/lint-checks-26.2.0.pom
+Download https://maven.google.com/com/android/tools/lint/lint-kotlin/26.2.0/lint-kotlin-26.2.0.pom
+Download https://maven.google.com/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0/kotlin-compiler-26.2.0.pom
+Download https://maven.google.com/com/android/tools/lint/lint-api/26.2.0/lint-api-26.2.0.pom
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.pom
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_parent/2.0.18/error_prone_parent-2.0.18.pom
+Download https://maven.google.com/com/android/tools/build/aapt2/3.2.0-4818971/aapt2-3.2.0-4818971.pom
+:app:checkDebugClasspath
+ERROR: [TAG] Failed to resolve variable '${project.groupId}'
+:app:preBuild UP-TO-DATE
+:models:checksum
+:models:list
+:models:preBuild
+:models:preDebugBuild
+:models:checkDebugManifest
+:models:processDebugManifest
+:app:preDebugBuild
+:models:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:models:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:models:compileDebugRenderscript
+:models:generateDebugResValues
+:models:generateDebugResources
+:models:packageDebugResources
+Download https://maven.google.com/com/android/tools/build/aapt2/3.2.0-4818971/aapt2-3.2.0-4818971-linux.jar
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:models:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:models:generateDebugBuildConfig
+:models:prepareLintJar
+:models:generateDebugSources
+:models:javaPreCompileDebug
+:models:compileDebugJavaWithJavac
+:models:processDebugJavaRes NO-SOURCE
+:models:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:checkReleaseClasspath
+:models:preReleaseBuild
+:models:checkReleaseManifest
+:models:processReleaseManifest
+:app:preReleaseBuild
+:models:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:models:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:models:compileReleaseRenderscript
+:models:generateReleaseResValues
+:models:generateReleaseResources
+:models:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:models:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:models:generateReleaseBuildConfig
+:models:generateReleaseSources
+:models:javaPreCompileRelease
+:models:compileReleaseJavaWithJavac
+:models:processReleaseJavaRes NO-SOURCE
+:models:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:lint
+Download https://maven.google.com/com/android/tools/lint/lint-checks/26.2.0/lint-checks-26.2.0.jar
+Download https://maven.google.com/com/android/tools/external/org-jetbrains/uast/26.2.0/uast-26.2.0.jar
+Download https://maven.google.com/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0/kotlin-compiler-26.2.0.jar
+Download https://maven.google.com/com/android/tools/lint/lint-api/26.2.0/lint-api-26.2.0.jar
+Download https://maven.google.com/com/android/tools/lint/lint-gradle/26.2.0/lint-gradle-26.2.0.jar
+Download https://maven.google.com/com/android/tools/external/com-intellij/intellij-core/26.2.0/intellij-core-26.2.0.jar
+Download https://maven.google.com/com/android/tools/lint/lint-kotlin/26.2.0/lint-kotlin-26.2.0.jar
+Download https://maven.google.com/com/android/tools/lint/lint/26.2.0/lint-26.2.0.jar
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar
+Download https://jcenter.bintray.com/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.2.0/kotlin-stdlib-1.2.0.jar
+Download https://jcenter.bintray.com/org/codehaus/groovy/groovy-all/2.4.12/groovy-all-2.4.12.jar
+Calling mockable JAR artifact transform to create file: /home/circleci/.gradle/caches/transforms-1/files-1.1/android.jar/39415f2ca944d3824fb678ceab293778/android.jar with input /opt/android/sdk/platforms/android-28/android.jar
+Ran lint on variant debug: 0 issues found
+Ran lint on variant release: 0 issues found
+No issues found.
+:models:lint
+Ran lint on variant debug: 0 issues found
+Ran lint on variant release: 0 issues found
+
+BUILD SUCCESSFUL in 55s
+54 actionable tasks: 54 executed

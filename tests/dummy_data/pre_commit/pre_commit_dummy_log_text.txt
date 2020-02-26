@@ -1,0 +1,43 @@
+[INFO] Initializing environment for https://github.com/pre-commit/pre-commit-hooks.
+[INFO] Initializing environment for https://github.com/pryorda/dockerfilelint-precommit-hooks.
+[INFO] Initializing environment for https://github.com/pryorda/dockerfilelint-precommit-hooks:dockerfilelint.
+[INFO] Initializing environment for https://github.com/openstack-dev/bashate.
+[INFO] Initializing environment for https://github.com/detailyang/pre-commit-shell.
+[INFO] Initializing environment for https://github.com/jorisroovers/gitlint.
+[INFO] Initializing environment for https://github.com/adrienverge/yamllint.
+[INFO] Initializing environment for https://github.com/syntaqx/git-hooks.
+[INFO] Installing environment for https://github.com/pre-commit/pre-commit-hooks.
+[INFO] Once installed this environment will be reused.
+[INFO] This may take a few minutes...
+[INFO] Installing environment for https://github.com/pryorda/dockerfilelint-precommit-hooks.
+[INFO] Once installed this environment will be reused.
+[INFO] This may take a few minutes...
+[INFO] Installing environment for https://github.com/openstack-dev/bashate.
+[INFO] Once installed this environment will be reused.
+[INFO] This may take a few minutes...
+[INFO] Installing environment for https://github.com/adrienverge/yamllint.
+[INFO] Once installed this environment will be reused.
+[INFO] This may take a few minutes...
+Check JSON...........................................(no files to check)Skipped
+Pretty format JSON...................................(no files to check)Skipped
+Flake8...................................................................Passed
+Check for merge conflicts................................................Passed
+Check for broken symlinks............................(no files to check)Skipped
+Check Xml................................................................Passed
+Check Yaml...............................................................Passed
+Fix End of Files.........................................................Failed
+hookid: end-of-file-fixer
+
+Files were modified by this hook. Additional output:
+
+Fixing ci/logging/CIOutputParser/tests/grape_android_dummy_pass_log_text.txt
+Fixing ci/logging/CIOutputParser/tests/grape_android_dummy_fail_log_text.txt
+
+Detect Private Key.......................................................Passed
+Dockerfile linter....................................(no files to check)Skipped
+bashate..............................................(no files to check)Skipped
+Shell Syntax Check...................................(no files to check)Skipped
+yamllint.................................................................Passed
+CircleCI config validation...............................................Passed
+
+Exited with code exit status 1

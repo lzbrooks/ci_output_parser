@@ -1,0 +1,113 @@
+:app:checkDebugClasspath UP-TO-DATE
+:app:preBuild UP-TO-DATE
+:models:checksum
+:models:list
+:models:preBuild
+:models:preDebugBuild
+:models:checkDebugManifest UP-TO-DATE
+:models:processDebugManifest UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:models:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:models:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:checkDebugManifest UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:prepareLintJar UP-TO-DATE
+:app:mainApkListPersistenceDebug UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:models:compileDebugRenderscript UP-TO-DATE
+:models:generateDebugResValues UP-TO-DATE
+:models:generateDebugResources UP-TO-DATE
+:models:packageDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:createDebugCompatibleScreenManifests UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:splitsDiscoveryTaskDebug UP-TO-DATE
+:models:generateDebugRFile UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:models:generateDebugBuildConfig UP-TO-DATE
+:models:prepareLintJar UP-TO-DATE
+:models:generateDebugSources UP-TO-DATE
+:models:javaPreCompileDebug UP-TO-DATE
+:models:compileDebugJavaWithJavac UP-TO-DATE
+:models:processDebugJavaRes NO-SOURCE
+:models:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:app:javaPreCompileDebug UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:checkReleaseClasspath UP-TO-DATE
+:models:preReleaseBuild
+:models:checkReleaseManifest UP-TO-DATE
+:models:processReleaseManifest UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:models:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:models:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript UP-TO-DATE
+:app:checkReleaseManifest UP-TO-DATE
+:app:generateReleaseBuildConfig UP-TO-DATE
+:app:mainApkListPersistenceRelease UP-TO-DATE
+:app:generateReleaseResValues UP-TO-DATE
+:app:generateReleaseResources UP-TO-DATE
+:models:compileReleaseRenderscript UP-TO-DATE
+:models:generateReleaseResValues UP-TO-DATE
+:models:generateReleaseResources UP-TO-DATE
+:models:packageReleaseResources UP-TO-DATE
+:app:mergeReleaseResources UP-TO-DATE
+:app:createReleaseCompatibleScreenManifests UP-TO-DATE
+:app:processReleaseManifest UP-TO-DATE
+:app:splitsDiscoveryTaskRelease UP-TO-DATE
+:models:generateReleaseRFile UP-TO-DATE
+:app:processReleaseResources UP-TO-DATE
+:app:generateReleaseSources UP-TO-DATE
+:models:generateReleaseBuildConfig UP-TO-DATE
+:models:generateReleaseSources UP-TO-DATE
+:models:javaPreCompileRelease UP-TO-DATE
+:models:compileReleaseJavaWithJavac UP-TO-DATE
+:models:processReleaseJavaRes NO-SOURCE
+:models:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:app:javaPreCompileRelease UP-TO-DATE
+:app:compileReleaseJavaWithJavac UP-TO-DATE
+:app:lint
+Ran lint on variant debug: 0 issues found
+Ran lint on variant release: 0 issues found
+No issues found.
+:app:generateDebugUnitTestSources UP-TO-DATE
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:javaPreCompileDebugUnitTest
+ERROR: [TAG] Failed to resolve variable '${project.groupId}'
+:app:compileDebugUnitTestJavaWithJavac
+:app:processDebugJavaRes NO-SOURCE
+:app:processDebugUnitTestJavaRes NO-SOURCE
+:app:testDebugUnitTest
+:app:generateReleaseUnitTestSources UP-TO-DATE
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:javaPreCompileReleaseUnitTest
+:app:compileReleaseUnitTestJavaWithJavac
+:app:processReleaseJavaRes NO-SOURCE
+:app:processReleaseUnitTestJavaRes NO-SOURCE
+:app:testReleaseUnitTest
+:app:test
+:app:check
+:models:lint
+Ran lint on variant release: 0 issues found
+Ran lint on variant debug: 0 issues found
+:models:generateDebugUnitTestSources UP-TO-DATE
+:models:preDebugUnitTestBuild
+:models:javaPreCompileDebugUnitTest
+:models:compileDebugUnitTestJavaWithJavac NO-SOURCE
+:models:processDebugUnitTestJavaRes NO-SOURCE
+:models:testDebugUnitTest NO-SOURCE
+:models:generateReleaseUnitTestSources UP-TO-DATE
+:models:preReleaseUnitTestBuild
+:models:javaPreCompileReleaseUnitTest
+:models:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+:models:processReleaseUnitTestJavaRes NO-SOURCE
+:models:testReleaseUnitTest NO-SOURCE
+:models:test UP-TO-DATE
+:models:check
+
+BUILD SUCCESSFUL in 15s
+62 actionable tasks: 12 executed, 50 up-to-date

@@ -1,0 +1,149 @@
+
+> Configure project :app
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
+
+> Configure project :models
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :models:checksum
+> Task :models:list
+> Task :models:preBuild
+> Task :models:preDebugBuild
+> Task :models:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :models:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :models:generateDebugResValues
+> Task :app:createDebugCompatibleScreenManifests
+> Task :models:compileDebugRenderscript NO-SOURCE
+> Task :models:generateDebugResources
+> Task :models:packageDebugResources
+> Task :models:checkDebugManifest
+> Task :models:processDebugManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :models:parseDebugLibraryResources
+> Task :models:generateDebugBuildConfig
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :models:preReleaseBuild
+> Task :models:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :models:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :models:compileReleaseRenderscript NO-SOURCE
+> Task :models:generateReleaseResValues
+> Task :models:generateReleaseResources
+> Task :models:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :models:checkReleaseManifest
+> Task :models:generateDebugRFile
+> Task :app:processDebugResources
+> Task :models:compileDebugKotlin
+> Task :models:generateReleaseBuildConfig
+> Task :app:prepareLintJar
+> Task :models:parseReleaseLibraryResources
+> Task :models:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :app:mergeReleaseResources
+> Task :models:prepareLintJar
+> Task :models:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :models:compileReleaseKotlin
+> Task :models:javaPreCompileDebug
+> Task :models:compileDebugJavaWithJavac
+> Task :models:prepareLintJarForPublish
+> Task :models:javaPreCompileRelease
+> Task :models:compileReleaseJavaWithJavac
+
+> Task :models:lint
+Calling mockable JAR artifact transform to create file: /home/circleci/.gradle/caches/transforms-2/files-2.1/27df2b56a203ed3bec222f963ed2f633/android.jar with input /opt/android/sdk/platforms/android-28/android.jar
+Ran lint on variant release: 0 issues found
+Ran lint on variant debug: 0 issues found
+
+> Task :models:bundleLibCompileRelease
+
+> Task :app:compileReleaseKotlin
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/home/MainActivity.kt: (33, 34): Parameter 'view' is never used, could be renamed to _
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/login/LoginScreenFragment.kt: (11, 27): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/login/LoginScreenFragment.kt: (30, 26): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/login/LoginScreenFragment.kt: (30, 45): 'of(Fragment): ViewModelProvider' is deprecated. Deprecated in Java
+
+> Task :models:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/home/MainActivity.kt: (33, 34): Parameter 'view' is never used, could be renamed to _
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/login/LoginScreenFragment.kt: (11, 27): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/login/LoginScreenFragment.kt: (30, 26): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/login/LoginScreenFragment.kt: (30, 45): 'of(Fragment): ViewModelProvider' is deprecated. Deprecated in Java
+
+> Task :app:javaPreCompileRelease
+
+> Task :app:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:javaPreCompileDebug
+
+> Task :app:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:lint FAILED
+Ran lint on variant release: 1 issues found
+Ran lint on variant debug: 1 issues found
+/home/circleci/code/app/src/main/res/drawable/ic_edit_black_24dp.xml: Error: Overriding @drawable/ic_edit_black_24dp which is marked as private in com.google.android.material:material. If deliberate, use tools:override="true", otherwise pick a different name. [PrivateResource]
+
+   Explanation for issues of type "PrivateResource":
+   Private resources should not be referenced; the may not be present
+   everywhere, and even where they are they may disappear without notice.
+
+   To fix this, copy the resource into your own project instead.
+
+1 errors, 0 warnings
+Wrote HTML report to file:///home/circleci/code/app/build/reports/lint-results.html
+Wrote XML report to file:///home/circleci/code/app/build/reports/lint-results.xml
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:lint'.
+> Lint found errors in the project; aborting build.
+
+  Fix the issues identified by lint, or add the following to your build script to proceed with errors:
+  ...
+  android {
+      lintOptions {
+          abortOnError false
+      }
+  }
+  ...
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 1m 13s
+51 actionable tasks: 51 executed
+
+Exited with code exit status 1

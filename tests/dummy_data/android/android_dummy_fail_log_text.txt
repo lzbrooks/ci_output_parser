@@ -1,0 +1,182 @@
+Download https://maven.google.com/com/android/tools/lint/lint-gradle/26.2.0/lint-gradle-26.2.0.pom
+Download https://maven.google.com/com/android/tools/lint/lint/26.2.0/lint-26.2.0.pom
+Download https://jcenter.bintray.com/org/codehaus/groovy/groovy-all/2.4.12/groovy-all-2.4.12.pom
+Download https://maven.google.com/com/android/tools/external/com-intellij/intellij-core/26.2.0/intellij-core-26.2.0.pom
+Download https://maven.google.com/com/android/tools/external/org-jetbrains/uast/26.2.0/uast-26.2.0.pom
+Download https://jcenter.bintray.com/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.pom
+Download https://maven.google.com/com/android/tools/lint/lint-kotlin/26.2.0/lint-kotlin-26.2.0.pom
+Download https://maven.google.com/com/android/tools/lint/lint-checks/26.2.0/lint-checks-26.2.0.pom
+Download https://maven.google.com/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0/kotlin-compiler-26.2.0.pom
+Download https://maven.google.com/com/android/tools/lint/lint-api/26.2.0/lint-api-26.2.0.pom
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.pom
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_parent/2.0.18/error_prone_parent-2.0.18.pom
+Download https://maven.google.com/com/android/tools/build/aapt2/3.2.0-4818971/aapt2-3.2.0-4818971.pom
+:app:checkDebugClasspath
+ERROR: [TAG] Failed to resolve variable '${project.groupId}'
+:app:preBuild UP-TO-DATE
+:models:checksum
+:models:list
+:models:preBuild
+:models:preDebugBuild
+:models:checkDebugManifest
+:models:processDebugManifest
+:app:preDebugBuild
+:models:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:models:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:models:compileDebugRenderscript
+:models:generateDebugResValues
+:models:generateDebugResources
+:models:packageDebugResources
+Download https://maven.google.com/com/android/tools/build/aapt2/3.2.0-4818971/aapt2-3.2.0-4818971-linux.jar
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:models:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:models:generateDebugBuildConfig
+:models:prepareLintJar
+:models:generateDebugSources
+:models:javaPreCompileDebug
+:models:compileDebugJavaWithJavac
+:models:processDebugJavaRes NO-SOURCE
+:models:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:checkReleaseClasspath
+:models:preReleaseBuild
+:models:checkReleaseManifest
+:models:processReleaseManifest
+:app:preReleaseBuild
+:models:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:models:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:models:compileReleaseRenderscript
+:models:generateReleaseResValues
+:models:generateReleaseResources
+:models:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:models:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:models:generateReleaseBuildConfig
+:models:generateReleaseSources
+:models:javaPreCompileRelease
+:models:compileReleaseJavaWithJavac
+:models:processReleaseJavaRes NO-SOURCE
+:models:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:lint
+Download https://maven.google.com/com/android/tools/lint/lint-kotlin/26.2.0/lint-kotlin-26.2.0.jar
+Download https://maven.google.com/com/android/tools/external/org-jetbrains/uast/26.2.0/uast-26.2.0.jar
+Download https://maven.google.com/com/android/tools/external/com-intellij/intellij-core/26.2.0/intellij-core-26.2.0.jar
+Download https://maven.google.com/com/android/tools/lint/lint/26.2.0/lint-26.2.0.jar
+Download https://maven.google.com/com/android/tools/lint/lint-checks/26.2.0/lint-checks-26.2.0.jar
+Download https://maven.google.com/com/android/tools/lint/lint-api/26.2.0/lint-api-26.2.0.jar
+Download https://maven.google.com/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0/kotlin-compiler-26.2.0.jar
+Download https://maven.google.com/com/android/tools/lint/lint-gradle/26.2.0/lint-gradle-26.2.0.jar
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar
+Download https://jcenter.bintray.com/org/codehaus/groovy/groovy-all/2.4.12/groovy-all-2.4.12.jar
+Download https://jcenter.bintray.com/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.2.0/kotlin-stdlib-1.2.0.jar
+Calling mockable JAR artifact transform to create file: /home/circleci/.gradle/caches/transforms-1/files-1.1/android.jar/39415f2ca944d3824fb678ceab293778/android.jar with input /opt/android/sdk/platforms/android-28/android.jar
+Ran lint on variant debug: 6 issues found
+Ran lint on variant release: 6 issues found
+/home/circleci/code/app/src/main/java/com/example/grape/communication/WifiP2pAgent.java:298: Error: Call requires permission which may be rejected by user: code should explicitly check to see if permission is available (with checkPermission) or explicitly handle a potential SecurityException [MissingPermission]
+        manager_.discoverPeers(channel_,
+        ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/WifiP2pAgent.java:535: Error: Call requires permission which may be rejected by user: code should explicitly check to see if permission is available (with checkPermission) or explicitly handle a potential SecurityException [MissingPermission]
+        manager_.requestGroupInfo(channel_, this);
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/circleci/code/app/src/main/java/com/example/grape/communication/WifiP2pAgent.java:649: Error: Call requires permission which may be rejected by user: code should explicitly check to see if permission is available (with checkPermission) or explicitly handle a potential SecurityException [MissingPermission]
+        manager_.createGroup(channel_, new WifiP2pManager.ActionListener() {
+        ^
+
+   Explanation for issues of type "MissingPermission":
+   This check scans through your code and libraries and looks at the APIs
+   being used, and checks this against the set of permissions required to
+   access those APIs. If the code using those APIs is called at runtime, then
+   the program will crash.
+
+   Furthermore, for permissions that are revocable (with targetSdkVersion 23),
+   client code must also be prepared to handle the calls throwing an exception
+   if the user rejects the request for permission at runtime.
+
+/home/circleci/code/app/src/main/java/com/example/grape/userinterface/MainActivity.java:614: Error: Must be one of: ImageFormat.UNKNOWN, ImageFormat.RGB_565, ImageFormat.YV12, android.graphics.ImageFormat.Y8, ImageFormat.NV16, ImageFormat.NV21, ImageFormat.YUY2, ImageFormat.JPEG, android.graphics.ImageFormat.DEPTH_JPEG, ImageFormat.YUV_420_888, ImageFormat.YUV_422_888, ImageFormat.YUV_444_888, ImageFormat.FLEX_RGB_888, ImageFormat.FLEX_RGBA_8888, ImageFormat.RAW_SENSOR, ImageFormat.RAW_PRIVATE, ImageFormat.RAW10, ImageFormat.RAW12, ImageFormat.DEPTH16, ImageFormat.DEPTH_POINT_CLOUD, ImageFormat.PRIVATE, android.graphics.ImageFormat.HEIC [WrongConstant]
+                imageReader_ = ImageReader.newInstance(size.x, size.y, PixelFormat.RGBA_8888, 2);
+                                                                       ~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "WrongConstant":
+   Ensures that when parameter in a method only allows a specific set of
+   constants, calls obey those rules.
+
+/home/circleci/code/app/src/main/res/layout/activity_settings.xml:40: Warning: Buttons in button bars should be borderless; use style="?android:attr/buttonBarButtonStyle" (and ?android:attr/buttonBarStyle on the parent) [ButtonStyle]
+        <Button
+         ~~~~~~
+/home/circleci/code/app/src/main/res/layout/activity_settings.xml:48: Warning: Buttons in button bars should be borderless; use style="?android:attr/buttonBarButtonStyle" (and ?android:attr/buttonBarStyle on the parent) [ButtonStyle]
+        <Button
+         ~~~~~~
+
+   Explanation for issues of type "ButtonStyle":
+   Button bars typically use a borderless style for the buttons. Set the
+   style="?android:attr/buttonBarButtonStyle" attribute on each of the
+   buttons, and set style="?android:attr/buttonBarStyle" on the parent layout
+
+   http://developer.android.com/design/building-blocks/buttons.html
+
+4 errors, 2 warnings
+Wrote HTML report to file:///home/circleci/code/app/build/reports/lint-results.html
+Wrote XML report to file:///home/circleci/code/app/build/reports/lint-results.xml
+:app:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:lint'.
+> Lint found errors in the project; aborting build.
+
+  Fix the issues identified by lint, or add the following to your build script to proceed with errors:
+  ...
+  android {
+      lintOptions {
+          abortOnError false
+      }
+  }
+  ...
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 55s
+53 actionable tasks: 53 executed
+
+Exited with code exit status 1

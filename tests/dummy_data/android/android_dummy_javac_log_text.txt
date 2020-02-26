@@ -1,0 +1,269 @@
+
+> Configure project :app
+The JacocoReportBase.setExecutionData(FileCollection) method has been deprecated. This is scheduled to be removed in Gradle 6.0. Use getExecutionData().from(...)
+The JacocoReportBase.setSourceDirectories(FileCollection) method has been deprecated. This is scheduled to be removed in Gradle 6.0. Use getSourceDirectories().from(...)
+The JacocoReportBase.setClassDirectories(FileCollection) method has been deprecated. This is scheduled to be removed in Gradle 6.0. Use getClassDirectories().from(...)
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :models:checksum
+> Task :models:list
+> Task :models:preBuild
+> Task :models:preDebugBuild
+> Task :models:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :models:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :models:generateDebugResValues
+> Task :app:createDebugCompatibleScreenManifests
+> Task :models:compileDebugRenderscript NO-SOURCE
+> Task :models:generateDebugResources
+> Task :models:packageDebugResources
+> Task :models:checkDebugManifest
+> Task :models:generateDebugBuildConfig
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :models:preReleaseBuild
+> Task :models:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :models:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :models:compileReleaseRenderscript NO-SOURCE
+> Task :models:generateReleaseResValues
+> Task :models:generateReleaseResources
+> Task :models:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :models:checkReleaseManifest
+> Task :models:generateReleaseBuildConfig
+> Task :models:processDebugManifest
+> Task :app:processDebugManifest
+> Task :models:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :app:prepareLintJar
+> Task :models:parseReleaseLibraryResources
+> Task :models:prepareLintJar
+
+> Task :models:parseDebugLibraryResources
+Injecting the input artifact of a transform as a File has been deprecated. This is scheduled to be removed in Gradle 6.0. Declare the input artifact as Provider<FileSystemLocation> instead.
+
+> Task :app:mergeDebugResources
+> Task :models:generateDebugRFile
+> Task :app:processDebugResources
+> Task :models:compileDebugKotlin
+> Task :app:mergeReleaseResources
+> Task :models:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :models:compileReleaseKotlin
+> Task :models:prepareLintJarForPublish
+> Task :models:javaPreCompileRelease
+> Task :models:compileReleaseJavaWithJavac
+> Task :models:javaPreCompileDebug
+> Task :models:compileDebugJavaWithJavac
+
+> Task :models:lint
+Calling mockable JAR artifact transform to create file: /home/circleci/.gradle/caches/transforms-2/files-2.1/27df2b56a203ed3bec222f963ed2f633/android.jar with input /opt/android/sdk/platforms/android-28/android.jar
+Ran lint on variant release: 0 issues found
+Ran lint on variant debug: 0 issues found
+
+> Task :models:bundleLibCompileRelease
+
+> Task :app:compileReleaseKotlin
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/components/views/CaptureGalleryView.kt: (32, 54): Parameter 'lifecycleOwner' is never used
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/components/views/ScanContrastSweep.kt: (101, 36): Parameter 'offset' is never used
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/demo/ScannerDemoSelectionDialog.kt: (29, 25): Type mismatch: inferred type is Context? but Context was expected
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/demo/ScannerDemoSelectionDialog.kt: (49, 17): Label is redundant, because it can not be referenced in either ''break'', ''continue'', or ''return'' expression
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/home/MainActivity.kt: (179, 32): Parameter 'view' is never used
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/home/MainActivity.kt: (185, 32): Parameter 'view' is never used
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/home/MainActivity.kt: (203, 39): Parameter 'it' is never used
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/home/MainActivity.kt: (207, 13): Identity equality for arguments of types Int? and Int can be unstable because of implicit boxing
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/login/LoginScreenFragment.kt: (11, 27): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/login/LoginScreenFragment.kt: (30, 26): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/login/LoginScreenFragment.kt: (30, 45): 'of(Fragment): ViewModelProvider' is deprecated. Deprecated in Java
+
+> Task :models:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/components/views/CaptureGalleryView.kt: (32, 54): Parameter 'lifecycleOwner' is never used
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/components/views/ScanContrastSweep.kt: (101, 36): Parameter 'offset' is never used
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/demo/ScannerDemoSelectionDialog.kt: (29, 25): Type mismatch: inferred type is Context? but Context was expected
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/demo/ScannerDemoSelectionDialog.kt: (49, 17): Label is redundant, because it can not be referenced in either ''break'', ''continue'', or ''return'' expression
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/home/MainActivity.kt: (179, 32): Parameter 'view' is never used
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/home/MainActivity.kt: (185, 32): Parameter 'view' is never used
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/home/MainActivity.kt: (203, 39): Parameter 'it' is never used
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/home/MainActivity.kt: (207, 13): Identity equality for arguments of types Int? and Int can be unstable because of implicit boxing
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/login/LoginScreenFragment.kt: (11, 27): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/login/LoginScreenFragment.kt: (30, 26): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /home/circleci/code/app/src/main/java/com/example/grape/userinterface/login/LoginScreenFragment.kt: (30, 45): 'of(Fragment): ViewModelProvider' is deprecated. Deprecated in Java
+
+> Task :app:javaPreCompileRelease
+
+> Task :app:compileReleaseJavaWithJavac
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:28: warning: [deprecation] LayeredSocketFactory in org.apache.http.conn.scheme has been deprecated
+import org.apache.http.conn.scheme.LayeredSocketFactory;
+                                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:29: warning: [deprecation] StrictHostnameVerifier in org.apache.http.conn.ssl has been deprecated
+import org.apache.http.conn.ssl.StrictHostnameVerifier;
+                               ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:30: warning: [deprecation] HttpParams in org.apache.http.params has been deprecated
+import org.apache.http.params.HttpParams;
+                             ^
+/home/circleci/code/app/src/main/java/com/example/grape/userinterface/StatusFragment.java:14: warning: [deprecation] Fragment in android.app has been deprecated
+import android.app.Fragment;
+                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:28: warning: [deprecation] LayeredSocketFactory in org.apache.http.conn.scheme has been deprecated
+import org.apache.http.conn.scheme.LayeredSocketFactory;
+                                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:29: warning: [deprecation] StrictHostnameVerifier in org.apache.http.conn.ssl has been deprecated
+import org.apache.http.conn.ssl.StrictHostnameVerifier;
+                               ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:30: warning: [deprecation] HttpParams in org.apache.http.params has been deprecated
+import org.apache.http.params.HttpParams;
+                             ^
+/home/circleci/code/app/src/main/java/com/example/grape/userinterface/StatusFragment.java:14: warning: [deprecation] Fragment in android.app has been deprecated
+import android.app.Fragment;
+                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:28: warning: [deprecation] LayeredSocketFactory in org.apache.http.conn.scheme has been deprecated
+import org.apache.http.conn.scheme.LayeredSocketFactory;
+                                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:29: warning: [deprecation] StrictHostnameVerifier in org.apache.http.conn.ssl has been deprecated
+import org.apache.http.conn.ssl.StrictHostnameVerifier;
+                               ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:30: warning: [deprecation] HttpParams in org.apache.http.params has been deprecated
+import org.apache.http.params.HttpParams;
+                             ^
+/home/circleci/code/app/src/main/java/com/example/grape/userinterface/StatusFragment.java:14: warning: [deprecation] Fragment in android.app has been deprecated
+import android.app.Fragment;
+                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:28: warning: [deprecation] LayeredSocketFactory in org.apache.http.conn.scheme has been deprecated
+import org.apache.http.conn.scheme.LayeredSocketFactory;
+                                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:29: warning: [deprecation] StrictHostnameVerifier in org.apache.http.conn.ssl has been deprecated
+import org.apache.http.conn.ssl.StrictHostnameVerifier;
+                               ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:30: warning: [deprecation] HttpParams in org.apache.http.params has been deprecated
+import org.apache.http.params.HttpParams;
+                             ^
+/home/circleci/code/app/src/main/java/com/example/grape/userinterface/StatusFragment.java:14: warning: [deprecation] Fragment in android.app has been deprecated
+import android.app.Fragment;
+                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/data/Converter.java:64: warning: [deprecation] BitmapDrawable(Bitmap) in BitmapDrawable has been deprecated
+        return new BitmapDrawable(BitmapFactory.decodeByteArray(b, 0,
+               ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/MessagePool.java:63: warning: [unchecked] unchecked call to release(T) as a member of the raw type SynchronizedPool
+        sPool.release(this);
+                     ^
+  where T is a type-variable:
+    T extends Object declared in class SynchronizedPool
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:60: warning: [deprecation] LayeredSocketFactory in org.apache.http.conn.scheme has been deprecated
+public class TlsSniSocketFactory implements LayeredSocketFactory {
+                                            ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:62: warning: [deprecation] StrictHostnameVerifier in org.apache.http.conn.ssl has been deprecated
+    private final static HostnameVerifier hostnameVerifier = new StrictHostnameVerifier();
+                                                                 ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:96: warning: [deprecation] HttpParams in org.apache.http.params has been deprecated
+                                HttpParams params) throws IOException {
+                                ^
+/home/circleci/code/app/src/main/java/com/example/grape/userinterface/ScanningActivity.java:1091: warning: [unchecked] unchecked call to add(E) as a member of the raw type ArrayList
+                            if (!selectedItems.add(indexSelected)) {
+                                                  ^
+  where E is a type-variable:
+    E extends Object declared in class ArrayList
+/home/circleci/code/app/src/main/java/com/example/grape/userinterface/SetupActivity.java:183: warning: [deprecation] getFragmentManager() in Activity has been deprecated
+                                StatusFragment statusFragment = (StatusFragment) getFragmentManager().findFragmentById(R.id.status_fragment);
+                                                                                 ^
+23 warnings
+
+> Task :app:javaPreCompileDebug
+
+> Task :app:compileDebugJavaWithJavac
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:28: warning: [deprecation] LayeredSocketFactory in org.apache.http.conn.scheme has been deprecated
+import org.apache.http.conn.scheme.LayeredSocketFactory;
+                                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:29: warning: [deprecation] StrictHostnameVerifier in org.apache.http.conn.ssl has been deprecated
+import org.apache.http.conn.ssl.StrictHostnameVerifier;
+                               ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:30: warning: [deprecation] HttpParams in org.apache.http.params has been deprecated
+import org.apache.http.params.HttpParams;
+                             ^
+/home/circleci/code/app/src/main/java/com/example/grape/userinterface/StatusFragment.java:14: warning: [deprecation] Fragment in android.app has been deprecated
+import android.app.Fragment;
+                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:28: warning: [deprecation] LayeredSocketFactory in org.apache.http.conn.scheme has been deprecated
+import org.apache.http.conn.scheme.LayeredSocketFactory;
+                                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:29: warning: [deprecation] StrictHostnameVerifier in org.apache.http.conn.ssl has been deprecated
+import org.apache.http.conn.ssl.StrictHostnameVerifier;
+                               ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:30: warning: [deprecation] HttpParams in org.apache.http.params has been deprecated
+import org.apache.http.params.HttpParams;
+                             ^
+/home/circleci/code/app/src/main/java/com/example/grape/userinterface/StatusFragment.java:14: warning: [deprecation] Fragment in android.app has been deprecated
+import android.app.Fragment;
+                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:28: warning: [deprecation] LayeredSocketFactory in org.apache.http.conn.scheme has been deprecated
+import org.apache.http.conn.scheme.LayeredSocketFactory;
+                                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:29: warning: [deprecation] StrictHostnameVerifier in org.apache.http.conn.ssl has been deprecated
+import org.apache.http.conn.ssl.StrictHostnameVerifier;
+                               ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:30: warning: [deprecation] HttpParams in org.apache.http.params has been deprecated
+import org.apache.http.params.HttpParams;
+                             ^
+/home/circleci/code/app/src/main/java/com/example/grape/userinterface/StatusFragment.java:14: warning: [deprecation] Fragment in android.app has been deprecated
+import android.app.Fragment;
+                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:28: warning: [deprecation] LayeredSocketFactory in org.apache.http.conn.scheme has been deprecated
+import org.apache.http.conn.scheme.LayeredSocketFactory;
+                                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:29: warning: [deprecation] StrictHostnameVerifier in org.apache.http.conn.ssl has been deprecated
+import org.apache.http.conn.ssl.StrictHostnameVerifier;
+                               ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:30: warning: [deprecation] HttpParams in org.apache.http.params has been deprecated
+import org.apache.http.params.HttpParams;
+                             ^
+/home/circleci/code/app/src/main/java/com/example/grape/userinterface/StatusFragment.java:14: warning: [deprecation] Fragment in android.app has been deprecated
+import android.app.Fragment;
+                  ^
+/home/circleci/code/app/src/main/java/com/example/grape/data/Converter.java:64: warning: [deprecation] BitmapDrawable(Bitmap) in BitmapDrawable has been deprecated
+        return new BitmapDrawable(BitmapFactory.decodeByteArray(b, 0,
+               ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/MessagePool.java:63: warning: [unchecked] unchecked call to release(T) as a member of the raw type SynchronizedPool
+        sPool.release(this);
+                     ^
+  where T is a type-variable:
+    T extends Object declared in class SynchronizedPool
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:60: warning: [deprecation] LayeredSocketFactory in org.apache.http.conn.scheme has been deprecated
+public class TlsSniSocketFactory implements LayeredSocketFactory {
+                                            ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:62: warning: [deprecation] StrictHostnameVerifier in org.apache.http.conn.ssl has been deprecated
+    private final static HostnameVerifier hostnameVerifier = new StrictHostnameVerifier();
+                                                                 ^
+/home/circleci/code/app/src/main/java/com/example/grape/communication/TlsSniSocketFactory.java:96: warning: [deprecation] HttpParams in org.apache.http.params has been deprecated
+                                HttpParams params) throws IOException {
+                                ^
+/home/circleci/code/app/src/main/java/com/example/grape/userinterface/ScanningActivity.java:1091: warning: [unchecked] unchecked call to add(E) as a member of the raw type ArrayList
+                            if (!selectedItems.add(indexSelected)) {
+                                                  ^
+  where E is a type-variable:
+    E extends Object declared in class ArrayList
+/home/circleci/code/app/src/main/java/com/example/grape/userinterface/SetupActivity.java:183: warning: [deprecation] getFragmentManager() in Activity has been deprecated
+                                StatusFragment statusFragment = (StatusFragment) getFragmentManager().findFragmentById(R.id.status_fragment);
+                                                                                 ^
+23 warnings
+
+> Task :app:lint
+Ran lint on variant release: 0 issues found
+Ran lint on variant debug: 0 issues found
+No issues found.
+
+BUILD SUCCESSFUL in 1m 6s
+51 actionable tasks: 51 executed

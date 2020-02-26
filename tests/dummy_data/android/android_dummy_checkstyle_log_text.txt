@@ -1,0 +1,117 @@
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.agent/0.8.4/org.jacoco.agent-0.8.4.pom
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.build/0.8.4/org.jacoco.build-0.8.4.pom
+:app:checkDebugClasspath UP-TO-DATE
+:app:preBuild UP-TO-DATE
+:models:checksum
+:models:list
+:models:preBuild
+:models:preDebugBuild
+:models:checkDebugManifest UP-TO-DATE
+:models:processDebugManifest UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:models:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:models:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:checkDebugManifest UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:prepareLintJar UP-TO-DATE
+:app:mainApkListPersistenceDebug UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:models:compileDebugRenderscript UP-TO-DATE
+:models:generateDebugResValues UP-TO-DATE
+:models:generateDebugResources UP-TO-DATE
+:models:packageDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:createDebugCompatibleScreenManifests UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:splitsDiscoveryTaskDebug UP-TO-DATE
+:models:generateDebugRFile UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:models:generateDebugBuildConfig UP-TO-DATE
+:models:prepareLintJar UP-TO-DATE
+:models:generateDebugSources UP-TO-DATE
+:models:javaPreCompileDebug UP-TO-DATE
+:models:compileDebugJavaWithJavac UP-TO-DATE
+:models:processDebugJavaRes NO-SOURCE
+:models:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:app:javaPreCompileDebug UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:checkReleaseClasspath UP-TO-DATE
+:models:preReleaseBuild
+:models:checkReleaseManifest UP-TO-DATE
+:models:processReleaseManifest UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:models:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:models:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript UP-TO-DATE
+:app:checkReleaseManifest UP-TO-DATE
+:app:generateReleaseBuildConfig UP-TO-DATE
+:app:mainApkListPersistenceRelease UP-TO-DATE
+:app:generateReleaseResValues UP-TO-DATE
+:app:generateReleaseResources UP-TO-DATE
+:models:compileReleaseRenderscript UP-TO-DATE
+:models:generateReleaseResValues UP-TO-DATE
+:models:generateReleaseResources UP-TO-DATE
+:models:packageReleaseResources UP-TO-DATE
+:app:mergeReleaseResources UP-TO-DATE
+:app:createReleaseCompatibleScreenManifests UP-TO-DATE
+:app:processReleaseManifest UP-TO-DATE
+:app:splitsDiscoveryTaskRelease UP-TO-DATE
+:models:generateReleaseRFile UP-TO-DATE
+:app:processReleaseResources UP-TO-DATE
+:app:generateReleaseSources UP-TO-DATE
+:models:generateReleaseBuildConfig UP-TO-DATE
+:models:generateReleaseSources UP-TO-DATE
+:models:javaPreCompileRelease UP-TO-DATE
+:models:compileReleaseJavaWithJavac UP-TO-DATE
+:models:processReleaseJavaRes NO-SOURCE
+:models:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:app:javaPreCompileRelease UP-TO-DATE
+:app:compileReleaseJavaWithJavac UP-TO-DATE
+:app:lint
+Ran lint on variant debug: 1 issues found
+Ran lint on variant release: 1 issues found
+/home/circleci/code/app/build.gradle:54: Error: A newer version of org.jacoco:org.jacoco.agent than 0.8.3 is available: 0.8.4 [GradleDependency]
+    testImplementation 'org.jacoco:org.jacoco.agent:0.8.3'
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+1 errors, 0 warnings
+Wrote HTML report to file:///home/circleci/code/app/build/reports/lint-results.html
+Wrote XML report to file:///home/circleci/code/app/build/reports/lint-results.xml
+:app:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:lint'.
+> Lint found errors in the project; aborting build.
+
+  Fix the issues identified by lint, or add the following to your build script to proceed with errors:
+  ...
+  android {
+      lintOptions {
+          abortOnError false
+      }
+  }
+  ...
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s
+53 actionable tasks: 3 executed, 50 up-to-date
+
+Exited with code exit status 1

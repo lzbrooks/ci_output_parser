@@ -1,0 +1,108 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :models:checksum
+> Task :models:list
+> Task :models:preBuild
+> Task :models:preDebugBuild
+> Task :models:compileDebugAidl NO-SOURCE
+> Task :models:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :models:generateDebugResValues
+> Task :app:createDebugCompatibleScreenManifests
+> Task :models:compileDebugRenderscript NO-SOURCE
+> Task :models:generateDebugResources
+> Task :models:packageDebugResources
+> Task :models:checkDebugManifest
+> Task :models:processDebugManifest
+> Task :app:processDebugManifest
+> Task :models:generateDebugBuildConfig
+> Task :models:parseDebugLibraryResources
+> Task :app:mergeDebugResources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :models:mergeDebugShaders
+> Task :models:compileDebugShaders
+> Task :models:generateDebugAssets
+> Task :models:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :models:generateDebugRFile
+> Task :app:processDebugResources
+> Task :models:compileDebugKotlin
+> Task :models:javaPreCompileDebug
+> Task :models:compileDebugJavaWithJavac
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :models:processDebugJavaRes NO-SOURCE
+> Task :models:bundleLibResDebug
+> Task :models:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+
+> Task :app:javaPreCompileDebug
+
+> Task :app:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:compileDebugSources
+> Task :app:checkDebugDuplicateClasses
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJavaResource
+> Task :models:bundleLibRuntimeDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :models:mergeDebugJniLibFolders
+> Task :models:extractDebugAnnotations
+> Task :models:mergeDebugGeneratedProguardFiles
+> Task :models:mergeDebugConsumerProguardFiles
+> Task :models:compileDebugSources
+> Task :models:prepareLintJarForPublish
+> Task :app:mergeLibDexDebug
+> Task :models:mergeDebugNativeLibs
+> Task :models:stripDebugDebugSymbols
+> Task :models:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :models:transformNativeLibsWithSyncJniLibsForDebug
+> Task :models:mergeDebugJavaResource
+> Task :models:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :models:bundleDebugAar
+> Task :models:assembleDebug
+> Task :app:jacocoDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDebugNativeLibs
+Unable to strip library '/home/circleci/project/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libopencv_java3.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/circleci/project/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libpocketsphinx_jni.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/circleci/project/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libopencv_java3.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/circleci/project/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libpocketsphinx_jni.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/circleci/project/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libopencv_java3.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/home/circleci/project/app/build/intermediates/merged_native_libs/debug/out/lib/mips/libopencv_java3.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/home/circleci/project/app/build/intermediates/merged_native_libs/debug/out/lib/mips64/libopencv_java3.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/home/circleci/project/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libopencv_java3.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/circleci/project/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libpocketsphinx_jni.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/circleci/project/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libopencv_java3.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/circleci/project/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libpocketsphinx_jni.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+
+> Task :app:stripDebugDebugSymbols
+Compatible side by side NDK version was not found.
+
+> Task :app:mergeProjectDexDebug
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 0s
+58 actionable tasks: 58 executed
+-rw-r--r-- 1 circleci circleci 139652511 Feb 14 23:32 app/build/outputs/apk/debug/app-debug.apk
+-rw-r--r-- 1 circleci circleci       226 Feb 14 23:32 app/build/outputs/apk/debug/output.json

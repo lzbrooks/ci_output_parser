@@ -1,0 +1,71 @@
+run_array_kernel: Pulling from **********************
+7ddbc47eeb70: Already exists
+c1bbdc448b72: Already exists
+8c3b70e39044: Already exists
+45d437916d57: Already exists
+d8f1569ddae6: Already exists
+de5a2c57c41d: Already exists
+ea6f04a00543: Already exists
+7b872974e97c: Already exists
+46a8f793ee50: Pulling fs layer
+784f3d57b5b9: Pulling fs layer
+80d71d20e1f2: Pulling fs layer
+2856061833c9: Pulling fs layer
+7d4b3b38e5dc: Pulling fs layer
+2856061833c9: Waiting
+7d4b3b38e5dc: Waiting
+46a8f793ee50: Verifying Checksum
+46a8f793ee50: Download complete
+46a8f793ee50: Pull complete
+80d71d20e1f2: Verifying Checksum
+80d71d20e1f2: Download complete
+2856061833c9: Verifying Checksum
+2856061833c9: Download complete
+7d4b3b38e5dc: Verifying Checksum
+7d4b3b38e5dc: Download complete
+784f3d57b5b9: Verifying Checksum
+784f3d57b5b9: Download complete
+784f3d57b5b9: Pull complete
+80d71d20e1f2: Pull complete
+2856061833c9: Pull complete
+7d4b3b38e5dc: Pull complete
+Digest: sha256:315356d43b757394a5aaefcdacb6a04e1f8b6f3a58d0bb604fb33432631ec95c
+Status: Downloaded newer image for **********************:run_array_kernel
+docker.io/**********************:run_array_kernel
+Remove previous test artifacts
+Run tests
+rm: cannot remove '/test_artifacts/*': No such file or directory
+Running main() from gtest_main.cc
+[==========] Running 6 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 6 tests from BBTest
+[ RUN      ] BBTest.checksCUDAExists
+[       OK ] BBTest.checksCUDAExists (0 ms)
+[ RUN      ] BBTest.checksDirExists
+[       OK ] BBTest.checksDirExists (0 ms)
+[ RUN      ] BBTest.testDoppler
+./assets/test_bmode_2frame_4x0y.csv is open
+./assets/test_bmode_2frame_4x0y.csv open succeeded
+CSV pre-parse found 2 frames, 1 angles
+
+doppler: took 0.107810 secs
+Couldn't open ./output_files/dir_map.csv
+
+doppler: took 0.079000 secs
+Couldn't open ./output_files/dir_map.csv
+[       OK ] BBTest.testDoppler (6918 ms)
+[ RUN      ] BBTest.checkstimePasses
+
+doppler: took 0.000000 secs
+[       OK ] BBTest.checkstimePasses (0 ms)
+[ RUN      ] BBTest.checksTimerExists
+[       OK ] BBTest.checksTimerExists (0 ms)
+[ RUN      ] BBTest.checksInputDirExists
+[       OK ] BBTest.checksInputDirExists (0 ms)
+[----------] 6 tests from BBTest (6946 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test case ran. (6947 ms total)
+[  PASSED  ] 6 tests.
+Check test results
+-rw-r--r-- 1 root root 772 Jan 29 19:34 /test_artifacts/results.xml

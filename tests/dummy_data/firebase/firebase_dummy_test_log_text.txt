@@ -1,0 +1,2519 @@
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+com.example.grape.ExampleInstrumentedTest:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=useAppContext
+INSTRUMENTATION_STATUS: class=com.example.grape.ExampleInstrumentedTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=useAppContext
+INSTRUMENTATION_STATUS: class=com.example.grape.ExampleInstrumentedTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=patient_exists
+INSTRUMENTATION_STATUS: class=com.example.grape.ExampleInstrumentedTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=patient_exists
+INSTRUMENTATION_STATUS: class=com.example.grape.ExampleInstrumentedTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+com.example.grape.data.dao.AnnotationDaoTest:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldGetNonZeroDBIdWhenInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+Error in shouldGetNonZeroDBIdWhenInsertTest(com.example.grape.data.dao.AnnotationDaoTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldGetNonZeroDBIdWhenInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenUpdateNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+Error in shouldReturnZeroAffectedRowsWhenUpdateNonExistingItemTest(com.example.grape.data.dao.AnnotationDaoTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenUpdateNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenGetAllFromDbFirstTimeTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+Error in shouldReturnZeroWhenGetAllFromDbFirstTimeTest(com.example.grape.data.dao.AnnotationDaoTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenGetAllFromDbFirstTimeTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldPreserveSameIdOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+Error in shouldPreserveSameIdOnInsertConflictTest(com.example.grape.data.dao.AnnotationDaoTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldPreserveSameIdOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldEqualWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+Error in shouldEqualWhenInsertAndGetTest(com.example.grape.data.dao.AnnotationDaoTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldEqualWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReplaceExistingItemOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+Error in shouldReplaceExistingItemOnInsertConflictTest(com.example.grape.data.dao.AnnotationDaoTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReplaceExistingItemOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnOneWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+Error in shouldReturnOneWhenInsertAndGetTest(com.example.grape.data.dao.AnnotationDaoTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnOneWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenInsertAndDeleteTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+Error in shouldReturnZeroWhenInsertAndDeleteTest(com.example.grape.data.dao.AnnotationDaoTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenInsertAndDeleteTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnMoreWhenMultipleInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+Error in shouldReturnMoreWhenMultipleInsertTest(com.example.grape.data.dao.AnnotationDaoTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnMoreWhenMultipleInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenDeleteNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+Error in shouldReturnZeroAffectedRowsWhenDeleteNonExistingItemTest(com.example.grape.data.dao.AnnotationDaoTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenDeleteNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AnnotationDaoTest
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+com.example.grape.data.dao.AssociateDaoTest:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldGetNonZeroDBIdWhenInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldGetNonZeroDBIdWhenInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenUpdateNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=14
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenUpdateNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=14
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenGetAllFromDbFirstTimeTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=15
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenGetAllFromDbFirstTimeTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=15
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldPreserveSameIdOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=16
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldPreserveSameIdOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=16
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldEqualWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=17
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldEqualWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=17
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReplaceExistingItemOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=18
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReplaceExistingItemOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=18
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnOneWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=19
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnOneWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=19
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenInsertAndDeleteTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=20
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenInsertAndDeleteTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=20
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnMoreWhenMultipleInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=21
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnMoreWhenMultipleInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=21
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenDeleteNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=22
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenDeleteNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.AssociateDaoTest
+INSTRUMENTATION_STATUS: current=22
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+com.example.grape.data.dao.BodyPartDaoTest:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldGetNonZeroDBIdWhenInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=23
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldGetNonZeroDBIdWhenInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=23
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenUpdateNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=24
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenUpdateNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=24
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenGetAllFromDbFirstTimeTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=25
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenGetAllFromDbFirstTimeTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=25
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldPreserveSameIdOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=26
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldPreserveSameIdOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=26
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldEqualWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=27
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldEqualWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=27
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReplaceExistingItemOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=28
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReplaceExistingItemOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=28
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnOneWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=29
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnOneWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=29
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenInsertAndDeleteTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=30
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenInsertAndDeleteTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=30
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnMoreWhenMultipleInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=31
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnMoreWhenMultipleInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=31
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenDeleteNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=32
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenDeleteNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.BodyPartDaoTest
+INSTRUMENTATION_STATUS: current=32
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+com.example.grape.data.dao.ConfigurationDaoTest:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldGetNonZeroDBIdWhenInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=33
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldGetNonZeroDBIdWhenInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=33
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenUpdateNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=34
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenUpdateNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=34
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenGetAllFromDbFirstTimeTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=35
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenGetAllFromDbFirstTimeTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=35
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldPreserveSameIdOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=36
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldPreserveSameIdOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=36
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldEqualWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=37
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldEqualWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=37
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReplaceExistingItemOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=38
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReplaceExistingItemOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=38
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnOneWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=39
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnOneWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=39
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenInsertAndDeleteTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=40
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenInsertAndDeleteTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=40
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnMoreWhenMultipleInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=41
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnMoreWhenMultipleInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=41
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenDeleteNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=42
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenDeleteNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.ConfigurationDaoTest
+INSTRUMENTATION_STATUS: current=42
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+com.example.grape.data.dao.SettingDaoTest:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldGetNonZeroDBIdWhenInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=43
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldGetNonZeroDBIdWhenInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=43
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenUpdateNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=44
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenUpdateNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=44
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenGetAllFromDbFirstTimeTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=45
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenGetAllFromDbFirstTimeTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=45
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldPreserveSameIdOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=46
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldPreserveSameIdOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=46
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldEqualWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=47
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldEqualWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=47
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReplaceExistingItemOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=48
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReplaceExistingItemOnInsertConflictTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=48
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnOneWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=49
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnOneWhenInsertAndGetTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=49
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenInsertAndDeleteTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=50
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenInsertAndDeleteTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=50
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnMoreWhenMultipleInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=51
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnMoreWhenMultipleInsertTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=51
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenDeleteNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=52
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroAffectedRowsWhenDeleteNonExistingItemTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.SettingDaoTest
+INSTRUMENTATION_STATUS: current=52
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+com.example.grape.data.dao.UserDaoTest:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenGetAllFromDbFirstTimeTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.UserDaoTest
+INSTRUMENTATION_STATUS: current=53
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroWhenGetAllFromDbFirstTimeTest
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.UserDaoTest
+INSTRUMENTATION_STATUS: current=53
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReplaceUserAfterSavingSameUserWithSameUsername
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.UserDaoTest
+INSTRUMENTATION_STATUS: current=54
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReplaceUserAfterSavingSameUserWithSameUsername
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.UserDaoTest
+INSTRUMENTATION_STATUS: current=54
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldRemoveUserAfterCallingDelete
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.UserDaoTest
+INSTRUMENTATION_STATUS: current=55
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldRemoveUserAfterCallingDelete
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.UserDaoTest
+INSTRUMENTATION_STATUS: current=55
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroForHasUsernameInitiallyThenOneAfterAddingUsername
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.UserDaoTest
+INSTRUMENTATION_STATUS: current=56
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnZeroForHasUsernameInitiallyThenOneAfterAddingUsername
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.UserDaoTest
+INSTRUMENTATION_STATUS: current=56
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnUserAfterSaving
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.UserDaoTest
+INSTRUMENTATION_STATUS: current=57
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=shouldReturnUserAfterSaving
+INSTRUMENTATION_STATUS: class=com.example.grape.data.dao.UserDaoTest
+INSTRUMENTATION_STATUS: current=57
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+com.example.grape.imageprocessing.ImageProcessingApiTest:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=getFilterInfoTest
+INSTRUMENTATION_STATUS: class=com.example.grape.imageprocessing.ImageProcessingApiTest
+INSTRUMENTATION_STATUS: current=58
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=getFilterInfoTest
+INSTRUMENTATION_STATUS: class=com.example.grape.imageprocessing.ImageProcessingApiTest
+INSTRUMENTATION_STATUS: current=58
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=filterImageTest
+INSTRUMENTATION_STATUS: class=com.example.grape.imageprocessing.ImageProcessingApiTest
+INSTRUMENTATION_STATUS: current=59
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=filterImageTest
+INSTRUMENTATION_STATUS: class=com.example.grape.imageprocessing.ImageProcessingApiTest
+INSTRUMENTATION_STATUS: current=59
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=
+com.example.grape.scanner.ScannerTest:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=batteryLevelTest
+INSTRUMENTATION_STATUS: class=com.example.grape.scanner.ScannerTest
+INSTRUMENTATION_STATUS: current=60
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=60
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=batteryLevelTest
+INSTRUMENTATION_STATUS: class=com.example.grape.scanner.ScannerTest
+INSTRUMENTATION_STATUS: current=60
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 6.962
+There were 20 failures:
+1) shouldGetNonZeroDBIdWhenInsertTest(com.example.grape.data.dao.AnnotationDaoTest)
+org.mockito.exceptions.base.MockitoException:
+Mockito cannot mock this class: class com.example.grape.data.Annotation.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+
+IMPORTANT INFORMATION FOR ANDROID USERS:
+
+The regular Byte Buddy mock makers cannot generate code on an Android VM!
+To resolve this, please use the 'mockito-android' dependency for your application:
+http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22mockito-android%22%20g%3A%22org.mockito%22
+
+Java               : 0.9
+JVM vendor name    : The Android Project
+JVM vendor version : 2.1.0
+JVM name           : Dalvik
+JVM version        : 0.9
+JVM info           : null
+OS name            : Linux
+OS version         : 3.18.71-perf-g1c94cd9
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+	at com.example.grape.data.dao.AnnotationDaoTest.setUp(AnnotationDaoTest.java:31)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:76)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+Caused by: java.lang.IllegalArgumentException: Could not create type
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:154)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:365)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:174)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:376)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.mockClass(TypeCachingBytecodeGenerator.java:32)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMockType(SubclassByteBuddyMockMaker.java:71)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMock(SubclassByteBuddyMockMaker.java:42)
+	at org.mockito.android.internal.creation.AndroidByteBuddyMockMaker.createMock(AndroidByteBuddyMockMaker.java:35)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:35)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:62)
+	at org.mockito.Mockito.mock(Mockito.java:1907)
+	at org.mockito.Mockito.mock(Mockito.java:1816)
+	... 29 more
+Caused by: java.lang.AbstractMethodError: abstract method "boolean org.mockito.internal.creation.bytebuddy.SubclassLoader.isDisrespectingOpenness()"
+	at org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(SubclassBytecodeGenerator.java:96)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:37)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:34)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:152)
+	... 40 more
+2) shouldGetNonZeroDBIdWhenInsertTest(com.example.grape.data.dao.AnnotationDaoTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+3) shouldReturnZeroAffectedRowsWhenUpdateNonExistingItemTest(com.example.grape.data.dao.AnnotationDaoTest)
+org.mockito.exceptions.base.MockitoException:
+Mockito cannot mock this class: class com.example.grape.data.Annotation.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+
+IMPORTANT INFORMATION FOR ANDROID USERS:
+
+The regular Byte Buddy mock makers cannot generate code on an Android VM!
+To resolve this, please use the 'mockito-android' dependency for your application:
+http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22mockito-android%22%20g%3A%22org.mockito%22
+
+Java               : 0.9
+JVM vendor name    : The Android Project
+JVM vendor version : 2.1.0
+JVM name           : Dalvik
+JVM version        : 0.9
+JVM info           : null
+OS name            : Linux
+OS version         : 3.18.71-perf-g1c94cd9
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+	at com.example.grape.data.dao.AnnotationDaoTest.setUp(AnnotationDaoTest.java:31)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:76)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+Caused by: java.lang.IllegalArgumentException: Could not create type
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:154)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:365)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:174)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:376)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.mockClass(TypeCachingBytecodeGenerator.java:32)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMockType(SubclassByteBuddyMockMaker.java:71)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMock(SubclassByteBuddyMockMaker.java:42)
+	at org.mockito.android.internal.creation.AndroidByteBuddyMockMaker.createMock(AndroidByteBuddyMockMaker.java:35)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:35)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:62)
+	at org.mockito.Mockito.mock(Mockito.java:1907)
+	at org.mockito.Mockito.mock(Mockito.java:1816)
+	... 29 more
+Caused by: java.lang.AbstractMethodError: abstract method "boolean org.mockito.internal.creation.bytebuddy.SubclassLoader.isDisrespectingOpenness()"
+	at org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(SubclassBytecodeGenerator.java:96)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:37)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:34)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:152)
+	... 40 more
+4) shouldReturnZeroAffectedRowsWhenUpdateNonExistingItemTest(com.example.grape.data.dao.AnnotationDaoTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+5) shouldReturnZeroWhenGetAllFromDbFirstTimeTest(com.example.grape.data.dao.AnnotationDaoTest)
+org.mockito.exceptions.base.MockitoException:
+Mockito cannot mock this class: class com.example.grape.data.Annotation.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+
+IMPORTANT INFORMATION FOR ANDROID USERS:
+
+The regular Byte Buddy mock makers cannot generate code on an Android VM!
+To resolve this, please use the 'mockito-android' dependency for your application:
+http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22mockito-android%22%20g%3A%22org.mockito%22
+
+Java               : 0.9
+JVM vendor name    : The Android Project
+JVM vendor version : 2.1.0
+JVM name           : Dalvik
+JVM version        : 0.9
+JVM info           : null
+OS name            : Linux
+OS version         : 3.18.71-perf-g1c94cd9
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+	at com.example.grape.data.dao.AnnotationDaoTest.setUp(AnnotationDaoTest.java:31)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:76)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+Caused by: java.lang.IllegalArgumentException: Could not create type
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:154)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:365)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:174)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:376)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.mockClass(TypeCachingBytecodeGenerator.java:32)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMockType(SubclassByteBuddyMockMaker.java:71)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMock(SubclassByteBuddyMockMaker.java:42)
+	at org.mockito.android.internal.creation.AndroidByteBuddyMockMaker.createMock(AndroidByteBuddyMockMaker.java:35)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:35)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:62)
+	at org.mockito.Mockito.mock(Mockito.java:1907)
+	at org.mockito.Mockito.mock(Mockito.java:1816)
+	... 29 more
+Caused by: java.lang.AbstractMethodError: abstract method "boolean org.mockito.internal.creation.bytebuddy.SubclassLoader.isDisrespectingOpenness()"
+	at org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(SubclassBytecodeGenerator.java:96)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:37)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:34)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:152)
+	... 40 more
+6) shouldReturnZeroWhenGetAllFromDbFirstTimeTest(com.example.grape.data.dao.AnnotationDaoTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+7) shouldPreserveSameIdOnInsertConflictTest(com.example.grape.data.dao.AnnotationDaoTest)
+org.mockito.exceptions.base.MockitoException:
+Mockito cannot mock this class: class com.example.grape.data.Annotation.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+
+IMPORTANT INFORMATION FOR ANDROID USERS:
+
+The regular Byte Buddy mock makers cannot generate code on an Android VM!
+To resolve this, please use the 'mockito-android' dependency for your application:
+http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22mockito-android%22%20g%3A%22org.mockito%22
+
+Java               : 0.9
+JVM vendor name    : The Android Project
+JVM vendor version : 2.1.0
+JVM name           : Dalvik
+JVM version        : 0.9
+JVM info           : null
+OS name            : Linux
+OS version         : 3.18.71-perf-g1c94cd9
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+	at com.example.grape.data.dao.AnnotationDaoTest.setUp(AnnotationDaoTest.java:31)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:76)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+Caused by: java.lang.IllegalArgumentException: Could not create type
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:154)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:365)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:174)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:376)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.mockClass(TypeCachingBytecodeGenerator.java:32)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMockType(SubclassByteBuddyMockMaker.java:71)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMock(SubclassByteBuddyMockMaker.java:42)
+	at org.mockito.android.internal.creation.AndroidByteBuddyMockMaker.createMock(AndroidByteBuddyMockMaker.java:35)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:35)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:62)
+	at org.mockito.Mockito.mock(Mockito.java:1907)
+	at org.mockito.Mockito.mock(Mockito.java:1816)
+	... 29 more
+Caused by: java.lang.AbstractMethodError: abstract method "boolean org.mockito.internal.creation.bytebuddy.SubclassLoader.isDisrespectingOpenness()"
+	at org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(SubclassBytecodeGenerator.java:96)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:37)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:34)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:152)
+	... 40 more
+8) shouldPreserveSameIdOnInsertConflictTest(com.example.grape.data.dao.AnnotationDaoTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+9) shouldEqualWhenInsertAndGetTest(com.example.grape.data.dao.AnnotationDaoTest)
+org.mockito.exceptions.base.MockitoException:
+Mockito cannot mock this class: class com.example.grape.data.Annotation.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+
+IMPORTANT INFORMATION FOR ANDROID USERS:
+
+The regular Byte Buddy mock makers cannot generate code on an Android VM!
+To resolve this, please use the 'mockito-android' dependency for your application:
+http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22mockito-android%22%20g%3A%22org.mockito%22
+
+Java               : 0.9
+JVM vendor name    : The Android Project
+JVM vendor version : 2.1.0
+JVM name           : Dalvik
+JVM version        : 0.9
+JVM info           : null
+OS name            : Linux
+OS version         : 3.18.71-perf-g1c94cd9
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+	at com.example.grape.data.dao.AnnotationDaoTest.setUp(AnnotationDaoTest.java:31)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:76)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+Caused by: java.lang.IllegalArgumentException: Could not create type
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:154)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:365)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:174)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:376)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.mockClass(TypeCachingBytecodeGenerator.java:32)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMockType(SubclassByteBuddyMockMaker.java:71)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMock(SubclassByteBuddyMockMaker.java:42)
+	at org.mockito.android.internal.creation.AndroidByteBuddyMockMaker.createMock(AndroidByteBuddyMockMaker.java:35)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:35)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:62)
+	at org.mockito.Mockito.mock(Mockito.java:1907)
+	at org.mockito.Mockito.mock(Mockito.java:1816)
+	... 29 more
+Caused by: java.lang.AbstractMethodError: abstract method "boolean org.mockito.internal.creation.bytebuddy.SubclassLoader.isDisrespectingOpenness()"
+	at org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(SubclassBytecodeGenerator.java:96)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:37)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:34)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:152)
+	... 40 more
+10) shouldEqualWhenInsertAndGetTest(com.example.grape.data.dao.AnnotationDaoTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+11) shouldReplaceExistingItemOnInsertConflictTest(com.example.grape.data.dao.AnnotationDaoTest)
+org.mockito.exceptions.base.MockitoException:
+Mockito cannot mock this class: class com.example.grape.data.Annotation.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+
+IMPORTANT INFORMATION FOR ANDROID USERS:
+
+The regular Byte Buddy mock makers cannot generate code on an Android VM!
+To resolve this, please use the 'mockito-android' dependency for your application:
+http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22mockito-android%22%20g%3A%22org.mockito%22
+
+Java               : 0.9
+JVM vendor name    : The Android Project
+JVM vendor version : 2.1.0
+JVM name           : Dalvik
+JVM version        : 0.9
+JVM info           : null
+OS name            : Linux
+OS version         : 3.18.71-perf-g1c94cd9
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+	at com.example.grape.data.dao.AnnotationDaoTest.setUp(AnnotationDaoTest.java:31)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:76)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+Caused by: java.lang.IllegalArgumentException: Could not create type
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:154)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:365)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:174)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:376)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.mockClass(TypeCachingBytecodeGenerator.java:32)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMockType(SubclassByteBuddyMockMaker.java:71)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMock(SubclassByteBuddyMockMaker.java:42)
+	at org.mockito.android.internal.creation.AndroidByteBuddyMockMaker.createMock(AndroidByteBuddyMockMaker.java:35)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:35)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:62)
+	at org.mockito.Mockito.mock(Mockito.java:1907)
+	at org.mockito.Mockito.mock(Mockito.java:1816)
+	... 29 more
+Caused by: java.lang.AbstractMethodError: abstract method "boolean org.mockito.internal.creation.bytebuddy.SubclassLoader.isDisrespectingOpenness()"
+	at org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(SubclassBytecodeGenerator.java:96)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:37)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:34)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:152)
+	... 40 more
+12) shouldReplaceExistingItemOnInsertConflictTest(com.example.grape.data.dao.AnnotationDaoTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+13) shouldReturnOneWhenInsertAndGetTest(com.example.grape.data.dao.AnnotationDaoTest)
+org.mockito.exceptions.base.MockitoException:
+Mockito cannot mock this class: class com.example.grape.data.Annotation.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+
+IMPORTANT INFORMATION FOR ANDROID USERS:
+
+The regular Byte Buddy mock makers cannot generate code on an Android VM!
+To resolve this, please use the 'mockito-android' dependency for your application:
+http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22mockito-android%22%20g%3A%22org.mockito%22
+
+Java               : 0.9
+JVM vendor name    : The Android Project
+JVM vendor version : 2.1.0
+JVM name           : Dalvik
+JVM version        : 0.9
+JVM info           : null
+OS name            : Linux
+OS version         : 3.18.71-perf-g1c94cd9
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+	at com.example.grape.data.dao.AnnotationDaoTest.setUp(AnnotationDaoTest.java:31)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:76)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+Caused by: java.lang.IllegalArgumentException: Could not create type
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:154)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:365)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:174)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:376)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.mockClass(TypeCachingBytecodeGenerator.java:32)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMockType(SubclassByteBuddyMockMaker.java:71)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMock(SubclassByteBuddyMockMaker.java:42)
+	at org.mockito.android.internal.creation.AndroidByteBuddyMockMaker.createMock(AndroidByteBuddyMockMaker.java:35)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:35)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:62)
+	at org.mockito.Mockito.mock(Mockito.java:1907)
+	at org.mockito.Mockito.mock(Mockito.java:1816)
+	... 29 more
+Caused by: java.lang.AbstractMethodError: abstract method "boolean org.mockito.internal.creation.bytebuddy.SubclassLoader.isDisrespectingOpenness()"
+	at org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(SubclassBytecodeGenerator.java:96)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:37)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:34)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:152)
+	... 40 more
+14) shouldReturnOneWhenInsertAndGetTest(com.example.grape.data.dao.AnnotationDaoTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+15) shouldReturnZeroWhenInsertAndDeleteTest(com.example.grape.data.dao.AnnotationDaoTest)
+org.mockito.exceptions.base.MockitoException:
+Mockito cannot mock this class: class com.example.grape.data.Annotation.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+
+IMPORTANT INFORMATION FOR ANDROID USERS:
+
+The regular Byte Buddy mock makers cannot generate code on an Android VM!
+To resolve this, please use the 'mockito-android' dependency for your application:
+http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22mockito-android%22%20g%3A%22org.mockito%22
+
+Java               : 0.9
+JVM vendor name    : The Android Project
+JVM vendor version : 2.1.0
+JVM name           : Dalvik
+JVM version        : 0.9
+JVM info           : null
+OS name            : Linux
+OS version         : 3.18.71-perf-g1c94cd9
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+	at com.example.grape.data.dao.AnnotationDaoTest.setUp(AnnotationDaoTest.java:31)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:76)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+Caused by: java.lang.IllegalArgumentException: Could not create type
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:154)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:365)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:174)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:376)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.mockClass(TypeCachingBytecodeGenerator.java:32)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMockType(SubclassByteBuddyMockMaker.java:71)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMock(SubclassByteBuddyMockMaker.java:42)
+	at org.mockito.android.internal.creation.AndroidByteBuddyMockMaker.createMock(AndroidByteBuddyMockMaker.java:35)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:35)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:62)
+	at org.mockito.Mockito.mock(Mockito.java:1907)
+	at org.mockito.Mockito.mock(Mockito.java:1816)
+	... 29 more
+Caused by: java.lang.AbstractMethodError: abstract method "boolean org.mockito.internal.creation.bytebuddy.SubclassLoader.isDisrespectingOpenness()"
+	at org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(SubclassBytecodeGenerator.java:96)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:37)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:34)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:152)
+	... 40 more
+16) shouldReturnZeroWhenInsertAndDeleteTest(com.example.grape.data.dao.AnnotationDaoTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+17) shouldReturnMoreWhenMultipleInsertTest(com.example.grape.data.dao.AnnotationDaoTest)
+org.mockito.exceptions.base.MockitoException:
+Mockito cannot mock this class: class com.example.grape.data.Annotation.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+
+IMPORTANT INFORMATION FOR ANDROID USERS:
+
+The regular Byte Buddy mock makers cannot generate code on an Android VM!
+To resolve this, please use the 'mockito-android' dependency for your application:
+http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22mockito-android%22%20g%3A%22org.mockito%22
+
+Java               : 0.9
+JVM vendor name    : The Android Project
+JVM vendor version : 2.1.0
+JVM name           : Dalvik
+JVM version        : 0.9
+JVM info           : null
+OS name            : Linux
+OS version         : 3.18.71-perf-g1c94cd9
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+	at com.example.grape.data.dao.AnnotationDaoTest.setUp(AnnotationDaoTest.java:31)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:76)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+Caused by: java.lang.IllegalArgumentException: Could not create type
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:154)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:365)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:174)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:376)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.mockClass(TypeCachingBytecodeGenerator.java:32)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMockType(SubclassByteBuddyMockMaker.java:71)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMock(SubclassByteBuddyMockMaker.java:42)
+	at org.mockito.android.internal.creation.AndroidByteBuddyMockMaker.createMock(AndroidByteBuddyMockMaker.java:35)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:35)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:62)
+	at org.mockito.Mockito.mock(Mockito.java:1907)
+	at org.mockito.Mockito.mock(Mockito.java:1816)
+	... 29 more
+Caused by: java.lang.AbstractMethodError: abstract method "boolean org.mockito.internal.creation.bytebuddy.SubclassLoader.isDisrespectingOpenness()"
+	at org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(SubclassBytecodeGenerator.java:96)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:37)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:34)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:152)
+	... 40 more
+18) shouldReturnMoreWhenMultipleInsertTest(com.example.grape.data.dao.AnnotationDaoTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+19) shouldReturnZeroAffectedRowsWhenDeleteNonExistingItemTest(com.example.grape.data.dao.AnnotationDaoTest)
+org.mockito.exceptions.base.MockitoException:
+Mockito cannot mock this class: class com.example.grape.data.Annotation.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+
+IMPORTANT INFORMATION FOR ANDROID USERS:
+
+The regular Byte Buddy mock makers cannot generate code on an Android VM!
+To resolve this, please use the 'mockito-android' dependency for your application:
+http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22mockito-android%22%20g%3A%22org.mockito%22
+
+Java               : 0.9
+JVM vendor name    : The Android Project
+JVM vendor version : 2.1.0
+JVM name           : Dalvik
+JVM version        : 0.9
+JVM info           : null
+OS name            : Linux
+OS version         : 3.18.71-perf-g1c94cd9
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+	at com.example.grape.data.dao.AnnotationDaoTest.setUp(AnnotationDaoTest.java:31)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:76)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+Caused by: java.lang.IllegalArgumentException: Could not create type
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:154)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:365)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:174)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:376)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.mockClass(TypeCachingBytecodeGenerator.java:32)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMockType(SubclassByteBuddyMockMaker.java:71)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMock(SubclassByteBuddyMockMaker.java:42)
+	at org.mockito.android.internal.creation.AndroidByteBuddyMockMaker.createMock(AndroidByteBuddyMockMaker.java:35)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:35)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:62)
+	at org.mockito.Mockito.mock(Mockito.java:1907)
+	at org.mockito.Mockito.mock(Mockito.java:1816)
+	... 29 more
+Caused by: java.lang.AbstractMethodError: abstract method "boolean org.mockito.internal.creation.bytebuddy.SubclassLoader.isDisrespectingOpenness()"
+	at org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(SubclassBytecodeGenerator.java:96)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:37)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:34)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:152)
+	... 40 more
+20) shouldReturnZeroAffectedRowsWhenDeleteNonExistingItemTest(com.example.grape.data.dao.AnnotationDaoTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.example.grape.data.AppRoomDB.close()' on a null object reference
+	at com.example.grape.data.dao.AnnotationDaoTest.tearDown(AnnotationDaoTest.java:41)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:80)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2081)
+
+FAILURES!!!
+Tests run: 60,  Failures: 20
+
+
+INSTRUMENTATION_CODE: -1
